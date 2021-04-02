@@ -40,9 +40,9 @@ public class SHA1 {
 
 	public static void main(String[] argv) {
 
-		String chCTe = "teste"; // Chave do CT-e
+		String chCTe = ""; // Chave do CT-e
 
-		String base64ImagemEntrega = "/outra parte do teste"; // Base64 da imagem capturada da entrega (Exemplo: imagem capturada da assinatura eletrônica, digital do recebedor, foto, etc).
+		String base64ImagemEntrega = ""; // Base64 da imagem capturada da entrega (Exemplo: imagem capturada da assinatura eletrônica, digital do recebedor, foto, etc).
 
 		// Chamada da função.
 		String hashGerada = gerarHashEntrega(chCTe, base64ImagemEntrega);
